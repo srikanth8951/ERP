@@ -1,0 +1,26 @@
+[
+    {
+        "name": "shell_af70c2db5fbe7e36510bca690e2f13f7",
+        "type": "shell",
+        "action": "cd \/home\/admin\/web\/srv1.mentric.co.in\/public_html\/sw\/api\/public\/ && php index.php cron contract_job check_expiry > \/dev\/null 2>&1 &",
+        "environment": "[]",
+        "output": "",
+        "error": null,
+        "start_at": "2022-08-22 05:30:01",
+        "end_at": "2022-08-22 05:30:02",
+        "duration": "00:01",
+        "test_time": null
+    },
+    {
+        "name": "shell_5ae7b90edaf22d9c2b3e0d7caea20930",
+        "type": "shell",
+        "action": "cd \/home\/admin\/web\/srv1.mentric.co.in\/public_html\/sw\/api\/public\/ && php index.php cron ContractJob checkPPMFrequencies > \/dev\/null 2>&1 &",
+        "environment": "[]",
+        "output": "",
+        "error": null,
+        "start_at": "2022-08-22 05:30:02",
+        "end_at": "2022-08-22 05:30:06",
+        "duration": "00:04",
+        "test_time": null
+    }
+]

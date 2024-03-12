@@ -1,0 +1,14 @@
+[
+    {
+        "name": "shell_af70c2db5fbe7e36510bca690e2f13f7",
+        "type": "shell",
+        "action": "cd \/home\/admin\/web\/srv1.mentric.co.in\/public_html\/sw\/api\/public\/ && php index.php cron contract_job check_expiry > \/dev\/null 2>&1 &",
+        "environment": "[]",
+        "output": "",
+        "error": null,
+        "start_at": "2022-08-17 06:09:01",
+        "end_at": "2022-08-17 06:09:01",
+        "duration": "00:00",
+        "test_time": null
+    }
+]

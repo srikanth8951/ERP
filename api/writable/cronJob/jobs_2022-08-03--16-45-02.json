@@ -1,0 +1,14 @@
+[
+    {
+        "name": "shell_595616b0fcae53b92d68b92c6e46be2b",
+        "type": "shell",
+        "action": "cd \/home\/admin\/web\/srv1.mentric.co.in\/public_html\/sw\/api\/public\/ && php index.php cron TestMail sendMail --name=sasi email=web@mentrictech.in > \/dev\/null 2>&1 &",
+        "environment": "[]",
+        "output": "cd \/home\/admin\/web\/srv1.mentric.co.in\/public_html\/sw\/api\/public\/ && php index.php cron TestMail sendMail --name=sasi email=web@mentrictech.in > \/dev\/null 2>&1 &",
+        "error": null,
+        "start_at": "2022-08-03 16:45:01",
+        "end_at": "2022-08-03 16:45:02",
+        "duration": "00:01",
+        "test_time": null
+    }
+]

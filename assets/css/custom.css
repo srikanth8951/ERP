@@ -1,0 +1,93 @@
+.btn-sw {
+  background-color: #f58c68;
+  color: #fff;
+}
+
+span.required {
+  color: red;
+}
+
+.disabled-event {
+  pointer-events: none;
+  color: rgb(204, 204, 204) !important;
+}
+
+.form {
+  position: relative;
+}
+
+.form .mdi-magnify {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  color: #9ca3af;
+}
+
+.form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+  padding-left: 7px;
+}
+
+.left-pan i {
+  padding-left: 10px;
+}
+
+.form-input {
+  height: 40px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+#userpassword-error {
+  position: absolute;
+}
+
+.form-group .input-field {
+  position: relative;
+}
+
+.input-field input {
+  transition: border-bottom-color 0.4s ease;
+}
+
+.input-field i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 23px;
+  transition: color 0.4s ease;
+}
+
+.input-field i.icon {
+  left: 0;
+}
+
+.input-field i.showHidePw {
+  right: 0;
+  cursor: pointer;
+  padding: 10px;
+}
+.clickable{
+  cursor: pointer;
+}
+.sel-error{
+  color:#ea553d;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

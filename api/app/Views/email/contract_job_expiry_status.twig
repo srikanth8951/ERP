@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{ settings.app_name }}</title>
+    <style>
+        * {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+			font-size: 1rem;
+			color: #555555;
+		}
+        
+        table,
+        th,
+        td {
+            border: 1px solid #333;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+
+        th {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;">
+    <div style="width: 680px;margin:auto;">
+        <div style="display:block;text-align:center;"><a style="display:block;text-align:center;" href="#"
+                title="app_name" target="_blank">
+                {% if settings.app_logo %}
+                    <img src="{{ base_url('public/images/' ~ settings.app_logo) }}" alt="{{ settings.app_name }}" style="margin-bottom:20px;border:none;display:block;margin-left:auto;margin-right:auto;" />
+                {% else %}
+                    <h3>{{ settings.app_name }}</h3>
+                {% endif %}
+            </a>
+        </div>
+
+        <div style="display:block;border-bottom:1px solid #dddddd;"></div>
+        <div style="height:20px;"></div>
+
+        <h4 style="margin-top:0;margin-bottom:20px;">Hi {{ customer.company_name }},</h4>
+        <div style="margin-left:20px;">
+            <p style="margin-top: 0px; margin-bottom: 20px;">We have sent you this email regarding your Job/Contract Status.</p>
+
+            <p style="margin-top: 0px; margin-bottom: 20px;">{{ customer.message }}</p>
+                       
+            <div style="height:20px;"></div>
+            <p style="margin-top: 0px; margin-bottom: 20px;text-align:center;"><small><i>(This mail is tiggred from server.)</i></small></p>
+            
+            <div style="height:20px;"></div>
+
+            <div style="">
+                <b>Best Regards</b> <br />
+                <span style="display:block;margin-top:2px;margin-bottom:2px;">Support Team </span>
+            </div>
+        </div>
+
+        <div style="height:20px;"></div>
+        <div style="display:block;border-bottom:1px solid #dddddd;"></div>
+
+        <div class="footer">
+            <div style="display:block;text-align:center;background-color:#E3FAFF;padding:20px;">
+                <h4 style="margin-top: 0;margin-bottom: 2px;">{{ settings.app_name }} </h4>
+                <p style="margin-top: 0;margin-bottom: 2px;"><a href="mailto:{{ settings.app_email }}" target="_blank"
+                        style="font-size: 14px; line-height: 19.6px;">{{ settings.app_email }}</a></p>
+                <p style="margin-top: 0;margin-bottom: 2px;">{{ lang('Common.email_address_format')|format(settings.app_name, settings.app_addr_city, settings.app_addr_state, settings.app_addr_pincode) }} </p>
+                <p style="margin-top: 0;margin-bottom: 2px;">Mobile: {{ settings.app_mobile }}</p>
+            </div>
+            <div style="display:block;text-align:center;background-color:#F5F5F5;"></div>
+            <ul style="list-style:none;text-align:center;">
+                <li style="display:inline;margin-left:2px;margin-right:2px;"><a title="Facebook" href="{{ settings.app_facebook_profile }}">
+                    <img alt="Facebook" style="width:24px;height:24px;" src="{{ base_url('public/images/icons/facebook2x.png') }}" /></a>
+                </li>
+                <li style="display:inline;margin-left:2px;margin-right:2px;"><a title="Instagram" href="{{ settings.app_instagram_profile }}">
+                    <img alt="Instagram" style="width:24px;height:24px;" src="{{ base_url('public/images/icons/instagram2x.png') }}" /></a>
+                </li>
+                <li style="display:inline;margin-left:2px;margin-right:2px;"><a title="Linkedin" href="{{ settings.app_linkedin_profile }}">
+                    <img alt="Linkedin" style="width:24px;height:24px;" src="{{ base_url('public/images/icons/linkedin2x.png') }}" /></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

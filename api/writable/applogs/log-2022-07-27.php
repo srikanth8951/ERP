@@ -1,0 +1,16 @@
+[Post Param Log at 12:01:17]: {"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtZW50cmljdGVjaC5pbiIsInN1YiI6IlVzZXIgQWNjZXNzIFRva2VuIiwidWlkIjoiMzMiLCJ1bGlkIjoxMzM3fQ.n_EKG4_ErYDgFncPGDYcX6QjmMnyx7P4-TdYrOORKno","pincode":"560040","address":"aa","mobile":"9035948408","last_name":"Pasha","state_id":"3176","first_name":"Abdul Khadar Jilani","email":"shoukathpasha16@gmail.com","country_id":"167","city_id":"85355"}
+[Employee Log at 12:01:20]: {"employee_id":"23","employee_number":"","first_name":"Shoukath","last_name":"Pasha","uid":"","email":"shoukathpasha16@gmail.com","mobile":"9035948408","address":"aa","city":"85355","state":"3176","country":"167","pincode":"560040","department_id":"0","designation_id":"16","region_id":"1","branch_id":"1","area_id":"1","joining_date":"0000-00-00","leaving_date":"0000-00-00","reporting_manager":"12","vendor_id":"0","work_expertise":"15","work_status":"0","user_id":"33","user_type":"213","status":"1","removed":"0","is_exist":"0","created_datetime":"2022-04-25 10:32:04","updated_datetime":"2022-07-26 12:58:10","username":"shoukath","user_image":"1655971453_6ec500ed6d4fb2fe06a4.jpeg"}
+[Response Log at 12:01:20]: {"status":"success","message":"Updated successfuly"}
+[Post Param Log at 12:55:52]: {"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtZW50cmljdGVjaC5pbiIsInN1YiI6IlVzZXIgQWNjZXNzIFRva2VuIiwidWlkIjoiMzMiLCJ1bGlkIjoxMzM4fQ.GCpP2QvRMX-wqQA8XgPyrWcWObJBFNBaeazH7aC_G30","pincode":"560039","address":"#20, 7th cross  Gangondana halli  Bangalore, 560039","mobile":"9035948408","last_name":"Pasha","state_id":"3176","first_name":"Shoukath ","email":"shoukathpasha16@gmail.com","country_id":"167","city_id":"85355"}
+[Employee Log at 12:55:52]: {"employee_id":"23","employee_number":"","first_name":"Abdul Khadar Jilani","last_name":"Pasha","uid":"","email":"shoukathpasha16@gmail.com","mobile":"9035948408","address":"aa","city":"85355","state":"3176","country":"167","pincode":"560040","department_id":"0","designation_id":"16","region_id":"1","branch_id":"1","area_id":"1","joining_date":"0000-00-00","leaving_date":"0000-00-00","reporting_manager":"12","vendor_id":"0","work_expertise":"15","work_status":"0","user_id":"33","user_type":"213","status":"1","removed":"0","is_exist":"0","created_datetime":"2022-04-25 10:32:04","updated_datetime":"2022-07-27 12:01:20","username":"shoukath","user_image":"1655971453_6ec500ed6d4fb2fe06a4.jpeg"}
+[Response Log at 12:55:52]: {"status":"success","message":"Updated successfuly"}
+[Ppm Frequencies Update Log at 14:38:47]: Job - 28: PPM status check is initiated
+[Ppm Frequencies Update Log at 14:38:47]: Job - 28: Available job frequencies - 4
+[Ppm Frequencies Update Log at 14:38:47]: Job - 28: PPM frequencies update completed
+[Checklist Track Log at 14:38:47]: Checklist track of contract job 28 is initiated
+[Checklist Track Log at 14:38:47]: No tracks are available to add!
+[Ppm Frequencies Update Log at 14:39:31]: Job - 29: PPM status check is initiated
+[Ppm Frequencies Update Log at 14:39:31]: Job - 29: Available job frequencies - 4
+[Ppm Frequencies Update Log at 14:39:31]: Job - 29: PPM frequencies update completed
+[Checklist Track Log at 14:39:31]: Checklist track of contract job 29 is initiated
+[Checklist Track Log at 14:39:31]: No tracks are available to add!

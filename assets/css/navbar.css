@@ -1,0 +1,50 @@
+ 
+/*Navigation bar list item links (top level)*/
+#sidebar-menu > ul > li > a.active {
+    color: #8e422c !important;
+    font-weight: 600;
+    background-color: var(--light);
+    border-bottom: 1px solid rgba(142, 66, 44, 0.05);
+    border-top: 1px solid rgba(142, 66, 44, 0.05);
+}
+
+#sidebar-menu > ul > li > a.active:after {
+    content: '';
+    width: 2px;
+    background-color: #8e422c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#sidebar-menu > ul > li > a.active i {
+    color: #8e422c !important;
+}
+ 
+/*Navigation bar drop down links (level 2->)*/
+#sidebar-menu > ul > a {
+    display: block;
+    text-decoration: none;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    color: #e2ccf8;
+    position: relative;
+    z-index: 1;
+}
+
+#sidebar-menu > ul > li > ul > li > a.active
+{
+    background: transparent;
+    color: #8e422c !important; 
+    font-weight: 600;
+}
+
+
+    
+   
+
+
+   
